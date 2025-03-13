@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+.lexend-<uniquifier> {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+.nav{
+    height: 55px;
+    display: flex;
+    background-color: #9290c3;
+    font-family:Lexend;
+    width: 100vw;
+}
+.nav img{
+    height: 50px;
+}
+.nav div{
+    display: flex;
+    align-items: center;
+
+}
+.right-nav ul li{
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 16px;
+font-weight: 400;
+text-wrap: nowrap;
+}
+.right-nav a{
+    text-decoration: none;
+    color: black;
+}
+.right-nav ul{
+    display:flex;
+    align-items: center;
+}
+.left-nav{
+    width: 70%;
+}
+.logo{
+    margin-left: 25px;
+}
+.title{
+    margin-left: 20px;
+    font-size: 20px;
+    text-wrap: nowrap;
+}
+select,option{
+    background-color: #9290c3;
+    border: none;
+    font-family:Lexend,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+option:hover{
+    background-color: #9290c3;
+}
+.menu{
+    width: 40px;
+}
+
+
+
+@media(min-width:600px)and (max-width:860px){
+    .exp-amt{
+   visibility:hidden;
+   display: none;
+    }
+    .abt-us{
+        visibility:hidden;
+        display: none; 
+    }
+    .menu{
+        visibility:hidden;
+        display: none;  
+    }
+    
+    
+}
+
+@media(min-width:860px){
+    .more-opt{
+  visibility:hidden;
+  display: none;
+   }
+   .menu{
+    visibility:hidden;
+    display: none; 
+   }
+}
+@media(max-width:600px){
+    .right-nav li{
+  visibility:hidden;
+  display: none;
+   }
+   .title{
+    visibility:hidden;
+    display: none; 
+   }
+}
+
